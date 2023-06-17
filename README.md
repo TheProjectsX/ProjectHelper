@@ -2,7 +2,7 @@
 A Web App created using HTML, Tailwind CSS and React JS to help you create your Projects!
 This Web app will provide you various Code Snippets for your project.
 
-###### App is not properly ready right now.
+### App is not properly ready right now.
 Many Snippets are left to add. But, we had to start first, right?
 
 
