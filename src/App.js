@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRef } from "react";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import LoadingBar from "react-top-loading-bar";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
+import RenderPage from "./components/RenderPage";
 
 function App() {
+  const loadingBarRef = useRef(null);
+  const parent =
+    window.location.hostname === "theprojectsx.github.io"
+      ? "/ProjectHelper"
+      : "";
+  if (parent !== "" && !window.location.pathname.includes(parent))
+    window.location = "./" + parent;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LoadingBar color="white" ref={loadingBarRef} transitionTime={80} />
+      <Router>
+        <Navbar parent={parent} />
+        <Sidebar parent={parent} />
+        <Routes>
+          <Route
+            path={`${parent === "" ? "/" : parent}`}
+            element={<Home parent={parent} />}
+          />
+          <Route
+            path={`${parent}/:parentSet/:tech?/:subSet?`}
+            element={
+              <RenderPage parent={parent} loadingBarRef={loadingBarRef} />
+            }
+          />
+        </Routes>
+      </Router>
     </div>
   );
 }
