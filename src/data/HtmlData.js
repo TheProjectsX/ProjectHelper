@@ -30,12 +30,6 @@ export const helperScripts = {
       lang: "html",
       code: `<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n  <title>Document</title>\n</head>\n<body>\n  \n</body>\n</html>`,
     },
-    {
-      title: "",
-      desc: ["Creating a Table in HTML"],
-      lang: "html",
-      code: `<table>\n  <tr>\n    <th>Heading 1</th>\n    <th>Heading 2</th>\n    <th>Heading 3</th>\n  </tr>\n  <tr>\n    <td>Item 1.1</td>\n    <td>Item 2.1</td>\n    <td>Item 3.1</td>\n  </tr>\n  <tr>\n    <td>Item 1.2</td>\n    <td>Item 2.2</td>\n    <td>Item 3.2</td>\n  </tr>\n</table>`,
-    },
   ],
   formatText: [
     {
