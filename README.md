@@ -1,3 +1,11 @@
+# ProjectHelper
+A Web App created using HTML, Tailwind CSS and React JS to help you create your Projects!
+This Web app will provide you various Code Snippets for your project.
+
+###### App is not properly ready right now.
+Many Snippets are left to add. But, we had to start first, right?
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

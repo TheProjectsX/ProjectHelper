@@ -164,7 +164,13 @@ export const helperScripts = {
       title: "",
       desc: ["Push to Main Branch"],
       lang: "shell",
-      code: `git branch -M main\ngit push -u origin main`,
+      code: `git branch -M main\ngit push origin main`,
+    },
+    {
+      title: "",
+      desc: ["If failed to Push to Main branch, it is because the security reasons", "Pull first, then push. It should solve the problem", "Else, Push by Force <code>--force</code>"],
+      lang: "shell",
+      code: `git pull origin main\ngit push origin main\n\n# If does not work, Push by force\ngit push origin main --force`,
     },
     {
       title: "",
