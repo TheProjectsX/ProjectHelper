@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ProjectHelper/static/css/main.88ccfc3c.css",
-    "main.js": "/ProjectHelper/static/js/main.874563da.js",
+    "main.js": "/ProjectHelper/static/js/main.2e52f6c7.js",
     "static/js/787.dd581118.chunk.js": "/ProjectHelper/static/js/787.dd581118.chunk.js",
     "static/media/hamburger.svg": "/ProjectHelper/static/media/hamburger.8eb84465b6cd562075e06c581a298648.svg",
     "static/media/cross.svg": "/ProjectHelper/static/media/cross.6088b8f52b314c8615f36c99d33e3fed.svg",
@@ -10,11 +10,11 @@
     "static/media/clipboard.svg": "/ProjectHelper/static/media/clipboard.91a098479ce786f19c8639c949b46afd.svg",
     "static/media/tick.svg": "/ProjectHelper/static/media/tick.926b897a36386c169b9c0e5615fe3c44.svg",
     "main.88ccfc3c.css.map": "/ProjectHelper/static/css/main.88ccfc3c.css.map",
-    "main.874563da.js.map": "/ProjectHelper/static/js/main.874563da.js.map",
+    "main.2e52f6c7.js.map": "/ProjectHelper/static/js/main.2e52f6c7.js.map",
     "787.dd581118.chunk.js.map": "/ProjectHelper/static/js/787.dd581118.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88ccfc3c.css",
-    "static/js/main.874563da.js"
+    "static/js/main.2e52f6c7.js"
   ]
 }
